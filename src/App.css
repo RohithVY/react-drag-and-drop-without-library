@@ -1,0 +1,58 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.container__one,
+.container__two {
+  position: relative;
+  border: 2px solid black;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  cursor: pointer;
+  overflow: auto;
+  resize: both;
+}
+
+.circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(151, 50, 197);
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: auto;
+  resize: both;
+}
+
+.rectangle {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(119, 197, 50);
+  cursor: pointer;
+  overflow: auto;
+  resize: both;
+}
+
+.triangle {
+  position: absolute;
+  cursor: pointer;
+  overflow: auto;
+  resize: both;
+  width: 2px;
+  height: 2px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #c46fc9;
+}
